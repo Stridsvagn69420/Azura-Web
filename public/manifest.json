@@ -24,10 +24,14 @@
             "sizes": "640x640",
             "purpose": "any maskable"
         },{
-            "src": "/images/icons/azura.svg",
+            "src": "/images/icons/azura-maskable.svg",
             "type": "image/svg+xml",
             "sizes": "any",
             "purpose": "any maskable"
+        },{
+            "src": "/images/icons/azura.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
         }
     ],
     "start_url": "/index.html",
