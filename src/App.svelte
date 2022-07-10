@@ -1,10 +1,6 @@
 <script lang="ts">
 	export let indev: boolean;
 	export let meta: AppMeta;
-
-	if ('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('./pwa-examples/js13kpwa/sw.js');
-	}
 </script>
 
 <main>

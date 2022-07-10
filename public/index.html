@@ -8,6 +8,11 @@
 
 	<meta charset="UTF-8">
 	<link rel="manifest" href="/manifest.json">
+	<script>
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('/sw.js');
+	}
+	</script>
 
 	<meta name="description" content="Azura Music Player as a Web-PWA">
 	<meta name="keywords" content="Azura, Azura-web, Azura Music Player, Music Player, Web-Music Player, Web-Music, Fire Emblem, Fire Emblem Fates, Svelte, GitHub, Open-Source, Vercel, PWA, Progressive Web App, Stridsvagn69420">
