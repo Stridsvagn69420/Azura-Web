@@ -3,3 +3,4 @@
 
 # Svelte
 /public/build/
+.vercel
