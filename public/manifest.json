@@ -1,6 +1,7 @@
 {
     "short_name": "Azura",
     "name": "Azura Music Player",
+    "description": "Azura Music Player as a Web-PWA",
     "icons": [
         {
             "src": "/images/azura-128.png",
@@ -24,11 +25,9 @@
     "scope": "/",
     "theme_color": "#3367D6",
     "related_applications": [{
-            "platform": "Web"
-        }, {
-            "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=de.stridsvagn69420.shigure",
-            "id": "de.stridsvagn69420.shigure"
-        }],
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=de.stridsvagn69420.shigure",
+        "id": "de.stridsvagn69420.shigure"
+    }],
     "lang": "en-US"
 }
