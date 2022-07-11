@@ -1,8 +1,5 @@
 {
 	"github": {
 		"silent": true
-	},
-	"regions": [
-		"fra1"
-	]
+	}
 }
