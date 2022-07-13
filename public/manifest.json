@@ -23,12 +23,14 @@
             "type": "image/png",
             "sizes": "640x640",
             "purpose": "any maskable"
-        },{
+        },
+        {
             "src": "/images/icons/azura-maskable.svg",
             "type": "image/svg+xml",
             "sizes": "any",
             "purpose": "any maskable"
-        },{
+        },
+        {
             "src": "/images/icons/azura.svg",
             "type": "image/svg+xml",
             "sizes": "any"
@@ -40,10 +42,12 @@
     "orientation": "natural",
     "scope": "/",
     "theme_color": "#3367D6",
-    "related_applications": [{
-        "platform": "play",
-        "url": "https://play.google.com/store/apps/details?id=de.stridsvagn69420.shigure",
-        "id": "de.stridsvagn69420.shigure"
-    }],
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=de.stridsvagn69420.shigure",
+            "id": "de.stridsvagn69420.shigure"
+        }
+    ],
     "lang": "en-US"
 }

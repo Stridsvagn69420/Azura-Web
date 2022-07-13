@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Format -->
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
-	<meta http-equiv="Access-Control-Allow-Origin" content="*">
-	<meta http-equiv="Access-Control-Expose-Headers" content="Authorization, Accept, Accept-Encoding">
-	<meta http-equiv="Access-Control-Allow-Headers" content="Authorization, Accept, Accept-Encoding">
-	<meta http-equiv="Access-Control-Allow-Methods" content="GET, HEAD">
-	<meta http-equiv="Cross-Origin-Resource-Policy" content="cross-origin">
 
+	<!-- CORS -->
+	<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+	<meta http-equiv="Cross-Origin-Resource-Policy" content="cross-origin" />
+
+	<!-- App -->
 	<title>Azura Music Player</title>
-
-	<meta charset="UTF-8">
-	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#212121">
+	<link rel="manifest" href="/manifest.json" />
 	<script>
 	if ('serviceWorker' in navigator) {
 		navigator.serviceWorker.register('/sw.js');
 	}
 	</script>
 
-	<meta name="description" content="Azura Music Player as a Web-PWA">
-	<meta name="keywords" content="Azura, Azura-web, Azura Music Player, Music Player, Web-Music Player, Web-Music, Fire Emblem, Fire Emblem Fates, Svelte, GitHub, Open-Source, Vercel, PWA, Progressive Web App, Stridsvagn69420">
-	<meta name="author" content="Stridsvagn69420">
+	<!-- SEO -->
+	<meta name="description" content="Azura Music Player as a Web-PWA" />
+	<meta name="keywords" content="Azura, Azura-web, Azura Music Player, Music Player, Web-Music Player, Web-Music, Fire Emblem, Fire Emblem Fates, Svelte, GitHub, Open-Source, Vercel, PWA, Progressive Web App, Stridsvagn69420" />
+	<meta name="author" content="Stridsvagn69420" />
 	<meta name="robots" content="index,nofollow" />
 
-	<link rel='icon' type='image/png' href='/favicon.png'>
-	<link rel='stylesheet' href='/global.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
+	<!-- Opengraph -->
+	<meta property="og:title" content="Azura Music Player" />
+	<meta property="og:site_name" content="Azura Music Player" />
+	<meta property="og:description" content="Azura Music Player as a Web-PWA" />
+	<meta property="og:image" content="https://azura-web.vercel.app/icons/azura-wallpaper.png" />
+	<meta property="og:image:alt" content="WIP" />
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="512" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://azura-web.vercel.app/" />
+	<meta property="og:locale" content="en_US" />
 
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@rog_nineteen" />
+	<meta name="twitter:creator:id" content="1178354971869356032" />
+	<meta name="twitter:title" content="Azura Music Player" />
+	<meta name="twitter:url" content="https://azura-web.vercel.app/" />
+	<meta name="twitter:description" content="Azura Music Player as a Web-PWA" />
+	<meta name="twitter:image" content="https://azura-web.vercel.app/icons/azura-wallpaper.png" />
+	<meta name="twitter:image:alt" content="WIP" />
+	<meta name="twitter:image:type" content="image/png">
+
+	<!-- Svelte -->
+	<link rel='icon' type='image/png' href='/favicon.png' />
+	<link rel='stylesheet' href='/global.css' />
+	<link rel='stylesheet' href='/build/bundle.css' />
 	<script defer src='/build/bundle.js'></script>
 </head>
 
